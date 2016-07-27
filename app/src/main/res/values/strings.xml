@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">七騎士小百科</string>
+    <string name="app_name">神奇寶貝玩家分享APP</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">選單</string>
     <string name="title_activity_three">第三籤　甲辰</string>
@@ -94,8 +94,7 @@
     <string name="title_activity_page_86">第八六籤</string>
     <string name="title_activity_page_87">第八七籤</string>
     <string name="title_activity_page_88">第八八籤</string>
-    <string name="title_activity_page_89">第八九籤</string>
-    <string name="title_activity_page_90">第九十籤</string>
+    <string name="title_activity_page_89">第八九籤</string>    <string name="title_activity_page_90">第九十籤</string>
     <string name="title_activity_page_91">第九一籤</string>
     <string name="title_activity_page_92">第九二籤</string>
     <string name="title_activity_page_93">第九三籤</string>
