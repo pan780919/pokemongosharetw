@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jhengweipan.SevenPeopleBook.SevenPeopleBook_MenuActivity">
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7019441527375550/4130707823" />
+    <ListView
+        android:id="@+id/SevenPeopleBook_MenuActivity_listview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+    </ListView>
+
+</RelativeLayout>
