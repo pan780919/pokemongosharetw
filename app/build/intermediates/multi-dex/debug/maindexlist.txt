@@ -12,6 +12,7 @@ com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_82Activity$1.class
 com/adlocus/AdLocusTargeting.class
 vpadn/aB.class
 android/support/v4/os/ResultReceiver.class
+com/jhengweipan/Guandisignonehundred/R$drawable.class
 com/adlocus/al.class
 com/google/android/gms/internal/zzeb.class
 com/google/android/gms/internal/zzhz.class
@@ -33,6 +34,7 @@ com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_62Activity$1.class
 android/support/v7/view/ActionMode$Callback.class
 android/support/v4/graphics/drawable/DrawableCompat.class
 android/support/v4/app/FragmentManagerImpl$3.class
+com/google/firebase/messaging/RemoteMessage$Notification.class
 com/adlocus/a/g.class
 com/google/android/gms/internal/zzcx.class
 com/google/ads/mediation/customevent/CustomEvent.class
@@ -40,6 +42,7 @@ com/igexin/getuiext/service/GetuiExtService.class
 android/support/v7/widget/RecyclerView$Adapter.class
 android/support/annotation/DimenRes.class
 android/support/v4/view/ViewCompat$HCViewCompatImpl.class
+com/jhengweipan/pokemongo/MyFirebaseInstanceIDService.class
 com/adlocus/VideoAdActivity.class
 com/google/android/gms/iid/MessengerCompat$1.class
 com/google/android/gms/ads/internal/overlay/zzj.class
@@ -438,6 +441,7 @@ com/google/android/gms/ads/reward/RewardedVideoAd.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/FortysixActivity.class
 android/support/v4/view/GravityCompat.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/TwentyfourActivity$1.class
+android/support/v4/app/NotificationCompat.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_69Activity$1.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_72Activity.class
 com/google/android/gms/internal/zzdb.class
@@ -482,6 +486,7 @@ com/bumptech/glide/load/model/GenericLoaderFactory.class
 com/jhengweipan/Guandisignonehundred/R$layout.class
 com/igexin/sdk/aidl/UserServiceListener.class
 vpadn/r.class
+com/jhengweipan/pokemongo/MyFirebaseMessagingService.class
 android/support/annotation/MainThread.class
 com/google/android/gms/ads/internal/reward/client/RewardedVideoAdRequestParcel.class
 android/support/v7/widget/RecyclerView.class
@@ -538,6 +543,7 @@ com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_90Activity.class
 com/google/android/gms/internal/zzib.class
 com/vpadn/widget/VpadnActivity$10.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/FortynineActivity$1.class
+com/google/firebase/messaging/zza.class
 com/google/android/gms/internal/zzjc.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_79Activity$1.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_73Activity.class
@@ -585,6 +591,7 @@ com/google/android/gms/ads/formats/NativeContentAd.class
 com/google/android/gms/internal/zzcr.class
 com/google/android/gms/ads/formats/NativeAppInstallAd.class
 com/google/android/gms/internal/zzgq.class
+com/google/firebase/messaging/SendException.class
 vpadn/c.class
 android/support/v4/view/animation/LookupTableInterpolator.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
@@ -641,6 +648,7 @@ com/adlocus/ah.class
 com/bumptech/glide/GenericRequestBuilder.class
 android/support/v7/app/AppCompatDelegateImplBase.class
 android/support/v4/app/BaseFragmentActivityDonut.class
+com/google/firebase/messaging/FirebaseMessagingService.class
 android/support/v4/media/MediaDescriptionCompat.class
 com/google/android/gms/internal/zzde.class
 com/google/android/gms/ads/internal/overlay/zzv.class
@@ -718,6 +726,7 @@ android/support/v4/media/MediaBrowserCompat.class
 com/google/android/gms/ads/AdListener.class
 com/jhengweipan/SevenPeopleBook/ForIdeaAndShareActivity$1.class
 com/google/android/gms/internal/zzjn$zza.class
+com/google/firebase/messaging/RemoteMessage.class
 com/google/ads/mediation/customevent/CustomEventBannerListener.class
 android/support/v7/widget/RecyclerView$SmoothScroller.class
 com/google/android/gms/internal/zzjx.class
@@ -857,6 +866,7 @@ com/vpadn/ads/VpadnInterstitialAd.class
 com/google/ads/mediation/AbstractAdViewAdapter.class
 com/google/android/gms/internal/zzeq.class
 com/adlocus/PushAd$a.class
+com/google/firebase/analytics/FirebaseAnalytics$Event.class
 com/adlocus/ac.class
 com/google/android/gms/internal/zzea.class
 android/support/annotation/XmlRes.class
@@ -1020,6 +1030,7 @@ com/google/android/gms/ads/internal/zza.class
 com/google/android/gms/internal/zziy.class
 android/support/annotation/RequiresPermission$Write.class
 com/google/android/gms/internal/zzakv.class
+com/google/firebase/analytics/FirebaseAnalytics$Param.class
 android/support/v4/view/ViewCompat$JBViewCompatImpl.class
 android/support/v7/view/ActionMode.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$1.class
@@ -1113,6 +1124,8 @@ android/support/v4/media/MediaMetadataCompat$TextKey.class
 com/igexin/getuiext/ui/b.class
 android/support/v4/view/ViewCompat$ICSViewCompatImpl.class
 android/support/annotation/BinderThread.class
+com/jhengweipan/pokemongo/MenuListActivity$1.class
+com/jhengweipan/pokemongo/MenuListActivity.class
 vpadn/n.class
 com/google/android/gms/ads/internal/client/zzj.class
 android/support/v7/widget/LinearLayoutCompat.class
@@ -1148,6 +1161,7 @@ com/igexin/getuiext/data/Consts.class
 c/CordovaWebView$6.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/HeadPageActivity.class
 com/google/android/gms/internal/zzeu.class
+com/google/firebase/analytics/FirebaseAnalytics.class
 com/google/android/gms/ads/internal/client/zzah.class
 com/google/firebase/iid/FirebaseInstanceIdReceiver.class
 android/support/v7/widget/RecyclerView$LayoutManager.class
@@ -1192,6 +1206,7 @@ android/support/v4/view/ViewCompatHC.class
 com/igexin/getuiext/service/h.class
 com/bumptech/glide/DrawableOptions.class
 com/google/android/gms/internal/zzjn.class
+com/google/firebase/messaging/zzb.class
 com/adlocus/b/b.class
 com/jhengweipan/Thunderstormsdivisiononehundredsign/Page_67Activity$1.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class

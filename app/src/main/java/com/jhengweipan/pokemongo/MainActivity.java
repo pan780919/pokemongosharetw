@@ -18,6 +18,8 @@ import android.webkit.ValueCallback;
 import android.webkit.WebView;
 
 import com.adlocus.PushAd;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.igexin.sdk.PushManager;
 import com.jhengweipan.Guandisignonehundred.R;
 import com.jhengweipan.MyAPI.VersionChecker;
@@ -37,6 +39,8 @@ public class MainActivity extends Activity {
     private boolean isFirst = true;
     private ValueCallback<Uri[]> mFilePathCallback;
     private String mCameraPhotoPath;
+    private FirebaseAnalytics mFirebaseAnalytics;
+    private static final String TAG = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +50,14 @@ public class MainActivity extends Activity {
 //        PushAd.test(this);
         configVersionCheck();
         PushManager.getInstance().initialize(this.getApplicationContext());
+//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+//        Bundle bundle = new Bundle();
+//        bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "123");
+//        bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "test");
+//        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+
+
+
         if (savedInstanceState == null) {
 
             getFragmentManager().beginTransaction()

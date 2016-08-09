@@ -42,7 +42,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/seveniocn"
+        android:icon="@drawable/poke"
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
@@ -956,8 +956,7 @@
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.SevenPeopleBook_MenuActivity"
             android:label="@string/title_activity_seven_people_book__menu"
-            android:theme="@style/myteme" >
-        </activity>
+            android:theme="@style/myteme" />
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.HitCityActivity"
             android:label="@string/title_activity_hit_city"
@@ -969,33 +968,45 @@
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.NewsPlayerTeachActivity"
             android:label="@string/title_activity_news_player_teach"
-            android:theme="@style/myteme" >
-        </activity>
+            android:theme="@style/myteme" />
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.ForIdeaAndShareActivity"
             android:label="@string/title_activity_for_idea_and_share"
-            android:theme="@style/myteme" >
-        </activity>
+            android:theme="@style/myteme" />
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.whoPeopele_2Activity"
             android:label="@string/title_activity_who_peopele_2"
-            android:theme="@style/myteme" >
-        </activity>
+            android:theme="@style/myteme" />
         <activity
             android:name="com.jhengweipan.SevenPeopleBook.MainActivity_RecyclerView"
             android:label="@string/app_name"
-            android:theme="@style/myteme" >
-        </activity>
+            android:theme="@style/myteme" />
         <activity
             android:name="com.jhengweipan.pokemongo.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.jhengweipan.pokemongo.MenuListActivity" >
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name="com.jhengweipan.pokemongo.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.jhengweipan.pokemongo.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -1042,11 +1053,6 @@
                 <action android:name="com.adlocus.action.RECEIVE" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
-            android:theme="@style/Theme.IAPTheme" />
-
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true" >
@@ -1089,6 +1095,21 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
     </application>
 
 </manifest>

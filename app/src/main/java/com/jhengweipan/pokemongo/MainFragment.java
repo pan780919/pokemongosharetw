@@ -80,7 +80,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-
+        getBundle();
         mWebView = (WebView) rootView.findViewById(R.id.mwebview_oil);
         mLayoutWeb = (RelativeLayout) rootView.findViewById(R.id.rl_webview);
         mPreviousBtn = (ImageButton) rootView.findViewById(R.id.button);
@@ -196,7 +196,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         settings.setSupportMultipleWindows(true);
 //        settings.setLoadsImagesAutomatically(true);
         // Use WideViewport and Zoom out if there is no viewport defined
-//        settings.setUseWideViewPort(true);//自適螢幕大小
+        settings.setUseWideViewPort(true);//自適螢幕大小
 //        settings.setLoadWithOverviewMode(true);
         settings.setCacheMode(WebSettings.LOAD_DEFAULT);
         // 开启 DOM storage API 功能
@@ -612,5 +612,17 @@ public class MainFragment extends Fragment implements View.OnClickListener {
             return super.shouldOverrideUrlLoading(view, url);
         }
     }
+    private  void getBundle(){
+        Bundle bundle =getActivity().getIntent().getExtras();
+        String murl = bundle.getString("url");
+        if(murl.equals("0")){
+            uri = "http://pokemongosharetw.blogspot.tw/";
+        }else {
+            uri = "https://dev.getui.com/dos4.0/index.html";
+        }
 
+
+
+
+    }
 }
