@@ -60,12 +60,12 @@
         "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_9_2_5.png",
-        "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.adlocus\\library\\3.5.2\\res\\drawable-xhdpi-v4\\al_icon_9_2_5.png"
-    },
-    {
         "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_9_4_5.png",
         "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.adlocus\\library\\3.5.2\\res\\drawable-xhdpi-v4\\al_icon_9_4_5.png"
+    },
+    {
+        "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_9_2_5.png",
+        "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.adlocus\\library\\3.5.2\\res\\drawable-xhdpi-v4\\al_icon_9_2_5.png"
     },
     {
         "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_1_3.png",
@@ -544,12 +544,12 @@
         "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\src\\main\\res\\drawable-xhdpi\\webar_btn_pre_dissable.png"
     },
     {
-        "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_6_3.png",
-        "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.adlocus\\library\\3.5.2\\res\\drawable-xhdpi-v4\\al_icon_6_3.png"
-    },
-    {
         "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list3_clisk.9.png",
         "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\src\\main\\res\\drawable-xhdpi\\list3_clisk.9.png"
+    },
+    {
+        "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_6_3.png",
+        "source": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\exploded-aar\\com.adlocus\\library\\3.5.2\\res\\drawable-xhdpi-v4\\al_icon_6_3.png"
     },
     {
         "merged": "C:\\Users\\HYXEN20141227\\Documents\\pokemongosharetw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\al_icon_0_5.png",

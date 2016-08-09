@@ -47,17 +47,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Intent promotionIntent = new Intent(this, MainActivity.class);
         PushAd.enablePush(MainActivity.this, mykey.AdLoucsKey, promotionIntent);
-//        PushAd.test(this);
         configVersionCheck();
         PushManager.getInstance().initialize(this.getApplicationContext());
-//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-//        Bundle bundle = new Bundle();
-//        bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "123");
-//        bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "test");
-//        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
-
-
-
         if (savedInstanceState == null) {
 
             getFragmentManager().beginTransaction()
@@ -66,27 +57,6 @@ public class MainActivity extends Activity {
         }
 
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-
-
 
 
     @Override
@@ -128,8 +98,6 @@ public class MainActivity extends Activity {
         return super.onKeyDown(keyCode, event);
 
     }
-
-
 
     public void ConfirmExit() {
 
