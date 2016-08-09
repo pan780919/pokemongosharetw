@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.jhengweipan.Guandisignonehundred"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -43,783 +43,6 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity"
-            android:label="@string/title_activity_zero" />
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThreeActivity"
-            android:label="@string/title_activity_three"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FourActivity"
-            android:label="@string/title_activity_four"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiveActivity"
-            android:label="@string/title_activity_five"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.SixActivity"
-            android:label="@string/title_activity_six"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.OneoneActivity"
-            android:label="@string/title_activity_oneone"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwotwoActivity"
-            android:label="@string/title_activity_twotwo"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.SevenActivity"
-            android:label="@string/title_activity_seven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.EightActivity"
-            android:label="@string/title_activity_eight"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.NineActivity"
-            android:label="@string/title_activity_nine"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TenActivity"
-            android:label="@string/title_activity_ten"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ElevenActivity"
-            android:label="@string/title_activity_eleven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwelveActivity"
-            android:label="@string/title_activity_twelve"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirteenActivity"
-            android:label="@string/title_activity_thirteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FourteenActivity"
-            android:label="@string/title_activity_fourteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FifteenActivity"
-            android:label="@string/title_activity_fifteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.SixteenActivity"
-            android:label="@string/title_activity_sixteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.SeventeenActivity"
-            android:label="@string/title_activity_seventeen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.EighteenActivity"
-            android:label="@string/title_activity_eighteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.NineteenActivity"
-            android:label="@string/title_activity_nineteen"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentyActivity"
-            android:label="@string/title_activity_twenty"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentyoneActivity"
-            android:label="@string/title_activity_twentyone"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentytwoActivity"
-            android:label="@string/title_activity_twentytwo"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentythreeActivity"
-            android:label="@string/title_activity_twentythree"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentyfourActivity"
-            android:label="@string/title_activity_twentyfour"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentyfiveActivity"
-            android:label="@string/title_activity_twentyfive"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentysixActivity"
-            android:label="@string/title_activity_twentysix"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentysevenActivity"
-            android:label="@string/title_activity_twentyseven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentyeightActivity"
-            android:label="@string/title_activity_twentyeight"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.TwentynineActivity"
-            android:label="@string/title_activity_twentynine"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtyActivity"
-            android:label="@string/title_activity_thirty"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtyoneActivity"
-            android:label="@string/title_activity_thirtyone"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtytwoActivity"
-            android:label="@string/title_activity_thirtytwo"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtythreeActivity"
-            android:label="@string/title_activity_thirtythree"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtyfourActivity"
-            android:label="@string/title_activity_thirtyfour"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtyfiveActivity"
-            android:label="@string/title_activity_thirtyfive"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtysixActivity"
-            android:label="@string/title_activity_thirtysix"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtysevenActivity"
-            android:label="@string/title_activity_thirtyseven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtyeighActivity"
-            android:label="@string/title_activity_thirtyeigh"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.ThirtynineActivity"
-            android:label="@string/title_activity_thirtynine"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortyActivity"
-            android:label="@string/title_activity_forty"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortyoneActivity"
-            android:label="@string/title_activity_fortyone"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortytwoActivity"
-            android:label="@string/title_activity_fortytwo"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortythreeActivity"
-            android:label="@string/title_activity_fortythree"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortyfourActivity"
-            android:label="@string/title_activity_fortyfour"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortyfiveActivity"
-            android:label="@string/title_activity_fortyfive"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortysixActivity"
-            android:label="@string/title_activity_fortysix"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortysevenActivity"
-            android:label="@string/title_activity_fortyseven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortyeightActivity"
-            android:label="@string/title_activity_fortyeight"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FortynineActivity"
-            android:label="@string/title_activity_fortynine"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftyActivity"
-            android:label="@string/title_activity_fifty"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftyoneActivity"
-            android:label="@string/title_activity_fiftyone"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftytwoActivity"
-            android:label="@string/title_activity_fiftytwo"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftythreeActivity"
-            android:label="@string/title_activity_fiftythree"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftyfourActivity"
-            android:label="@string/title_activity_fiftyfour"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftyfiveActivity"
-            android:label="@string/title_activity_fiftyfive"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftysixActivity"
-            android:label="@string/title_activity_fiftysix"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftysevenActivity"
-            android:label="@string/title_activity_fiftyseven"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftyeightActivity"
-            android:label="@string/title_activity_fiftyeight"
-            android:parentActivityName=".ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.FiftynineActivity"
-            android:label="@string/title_activity_fiftynine"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.SixtyActivity"
-            android:label="@string/title_activity_sixty"
-            android:parentActivityName="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-
-        <!-- 60以後 -->
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.HeadPageActivity"
-            android:label="@string/title_activity_head_page"
-            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-        <activity
-            android:name="com.vpadn.widget.VpadnActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|keyboard|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_61Activity"
-            android:label="@string/title_activity_page_61" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_62Activity"
-            android:label="@string/title_activity_page_62" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_63Activity"
-            android:label="@string/title_activity_page_63" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_64Activity"
-            android:label="@string/title_activity_page_64" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_65Activity"
-            android:label="@string/title_activity_page_65" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_66Activity"
-            android:label="@string/title_activity_page_66" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_67Activity"
-            android:label="@string/title_activity_page_67" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_68Activity"
-            android:label="@string/title_activity_page_68" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_69Activity"
-            android:label="@string/title_activity_page_69" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_70Activity"
-            android:label="@string/title_activity_page_70" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_71Activity"
-            android:label="@string/title_activity_page_71" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_72Activity"
-            android:label="@string/title_activity_page_72" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_73Activity"
-            android:label="@string/title_activity_page_73" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_74Activity"
-            android:label="@string/title_activity_page_74" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_75Activity"
-            android:label="@string/title_activity_page_75" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_76Activity"
-            android:label="@string/title_activity_page_76" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_77Activity"
-            android:label="@string/title_activity_page_77" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_78Activity"
-            android:label="@string/title_activity_page_78" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_79Activity"
-            android:label="@string/title_activity_page_79" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_80Activity"
-            android:label="@string/title_activity_page_80" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_81Activity"
-            android:label="@string/title_activity_page_81" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_82Activity"
-            android:label="@string/title_activity_page_82" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_83Activity"
-            android:label="@string/title_activity_page_83" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_84Activity"
-            android:label="@string/title_activity_page_84" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_85Activity"
-            android:label="@string/title_activity_page_85" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_86Activity"
-            android:label="@string/title_activity_page_86" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_87Activity"
-            android:label="@string/title_activity_page_87" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_88Activity"
-            android:label="@string/title_activity_page_88" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_89Activity"
-            android:label="@string/title_activity_page_89" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_90Activity"
-            android:label="@string/title_activity_page_90" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_91Activity"
-            android:label="@string/title_activity_page_91" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_92Activity"
-            android:label="@string/title_activity_page_92" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_93Activity"
-            android:label="@string/title_activity_page_93" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_94Activity"
-            android:label="@string/title_activity_page_94" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_95Activity"
-            android:label="@string/title_activity_page_95" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_96Activity"
-            android:label="@string/title_activity_page_96" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_97Activity"
-            android:label="@string/title_activity_page_97" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_98Activity"
-            android:label="@string/title_activity_page_98" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_99Activity"
-            android:label="@string/title_activity_page_99" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_100Activity"
-            android:label="@string/title_activity_page_100" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jhengweipan.Thunderstormsdivisiononehundredsign.ZeroActivity" />
-        </activity>
-        <activity
-            android:name="com.jhengweipan.Thunderstormsdivisiononehundredsign.Page_kingActivity"
-            android:label="@string/title_activity_page_king" />
         <!-- 个推SDK配置开始 -->
         <!-- 配置的第三方参数属性 -->
         <meta-data
@@ -845,7 +68,7 @@
             android:exported="true"
             android:label="NotificationCenterUser" />
 
-        <receiver android:name="com.igexin.sdk.PushReceiver" >
+        <receiver android:name="com.igexin.sdk.PushReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -859,7 +82,7 @@
         </receiver>
         <receiver
             android:name="com.igexin.sdk.PushManagerReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.pushmanager" />
             </intent-filter>
@@ -884,7 +107,7 @@
             android:name="com.igexin.download.DownloadService"
             android:process=":pushservice" />
 
-        <receiver android:name="com.igexin.download.DownloadReceiver" >
+        <receiver android:name="com.igexin.download.DownloadReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
@@ -907,7 +130,7 @@
 
         <receiver
             android:name="com.igexin.getuiext.service.PayloadReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
                 <!-- 把"你的APPID"替换为第三方应用的APPID -->
@@ -921,7 +144,7 @@
         <!-- 个推SDK配置结束 -->
         <receiver
             android:name="com.jhengweipan.pokemongo.PushDemoReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.GtXXf6U319A840ZZ96ksL8" />
                 <!-- 替换为第三方应用的APPID -->
@@ -931,7 +154,7 @@
 
         <receiver
             android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-            android:enabled="true" >
+            android:enabled="true">
             <intent-filter>
                 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
             </intent-filter>
@@ -941,57 +164,32 @@
             android:name="com.google.android.gms.analytics.AnalyticsService"
             android:enabled="true"
             android:exported="false" />
-
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.SevenPeopleBook_MenuActivity"
-            android:label="@string/title_activity_seven_people_book__menu"
-            android:theme="@style/myteme" >
-
-        </activity>
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.HitCityActivity"
-            android:label="@string/title_activity_hit_city"
-            android:theme="@style/myteme" />
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.DuplicateActivity"
-            android:label="@string/ga_dargon"
-            android:theme="@style/myteme" />
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.NewsPlayerTeachActivity"
-            android:label="@string/title_activity_news_player_teach"
-            android:theme="@style/myteme" >
-        </activity>
-
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.ForIdeaAndShareActivity"
-            android:label="@string/title_activity_for_idea_and_share"
-            android:theme="@style/myteme" >
-        </activity>
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.whoPeopele_2Activity"
-            android:label="@string/title_activity_who_peopele_2"
-            android:theme="@style/myteme">
-
-        </activity>
-        <activity
-            android:name="com.jhengweipan.SevenPeopleBook.MainActivity_RecyclerView"
-            android:label="@string/app_name"
-            android:theme="@style/myteme">
-
-        </activity>
-
-
         <activity
             android:name="com.jhengweipan.pokemongo.MainActivity"
-            android:label="@string/app_name"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            >
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name="com.jhengweipan.pokemongo.MenuListActivity">
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name="com.jhengweipan.pokemongo.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.jhengweipan.pokemongo.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

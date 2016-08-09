@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Thunderstormsdivisiononehundredsign.iml" filepath="$PROJECT_DIR$/Thunderstormsdivisiononehundredsign.iml" />
       <module fileurl="file://$PROJECT_DIR$/admobadapter/admobadapter.iml" filepath="$PROJECT_DIR$/admobadapter/admobadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pokemongosharetw.iml" filepath="$PROJECT_DIR$/pokemongosharetw.iml" />
     </modules>
   </component>
 </project>

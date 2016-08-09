@@ -118,8 +118,8 @@ public final class R {
 		public static final int btn_icon_set = 0x7f0200af;
 		public static final int btn_icon_share = 0x7f0200b0;
 		public static final int btn_icon_view = 0x7f0200b1;
-		public static final int color_bigview_btn_bg_click = 0x7f020110;
-		public static final int color_bigview_btn_bg_normal = 0x7f020111;
+		public static final int color_bigview_btn_bg_click = 0x7f020111;
+		public static final int color_bigview_btn_bg_normal = 0x7f020112;
 		public static final int pm_ad_logo_300 = 0x7f0200f5;
 		public static final int pm_ad_logo_320 = 0x7f0200f6;
 		public static final int pm_ad_logo_728 = 0x7f0200f7;
@@ -136,28 +136,28 @@ public final class R {
 		public static final int pm_status_03 = 0x7f020102;
 		public static final int pm_status_04 = 0x7f020103;
 		public static final int pm_status_05 = 0x7f020104;
-		public static final int sl_bigview_btn_bg = 0x7f020106;
+		public static final int sl_bigview_btn_bg = 0x7f020107;
 	}
 	public static final class id {
-		public static final int ProMe_NotificationClickIcon = 0x7f0d015a;
-		public static final int ProMe_NotificationIcon = 0x7f0d0158;
-		public static final int ProMe_NotificationImage = 0x7f0d0157;
-		public static final int ProMe_NotificationLayout = 0x7f0d0156;
-		public static final int ProMe_NotificationLogo = 0x7f0d015b;
-		public static final int ProMe_NotificationText = 0x7f0d0159;
-		public static final int b_button_look = 0x7f0d00d2;
-		public static final int b_button_setting = 0x7f0d00d1;
-		public static final int b_button_share = 0x7f0d00d3;
-		public static final int b_content = 0x7f0d00cf;
-		public static final int b_imageview_bigimage = 0x7f0d00d0;
-		public static final int b_imageview_icon = 0x7f0d00cc;
-		public static final int b_textview_subtitle = 0x7f0d00ce;
-		public static final int b_textview_title = 0x7f0d00cd;
+		public static final int ProMe_NotificationClickIcon = 0x7f0d0086;
+		public static final int ProMe_NotificationIcon = 0x7f0d0084;
+		public static final int ProMe_NotificationImage = 0x7f0d0083;
+		public static final int ProMe_NotificationLayout = 0x7f0d0082;
+		public static final int ProMe_NotificationLogo = 0x7f0d0087;
+		public static final int ProMe_NotificationText = 0x7f0d0085;
+		public static final int b_button_look = 0x7f0d006c;
+		public static final int b_button_setting = 0x7f0d006b;
+		public static final int b_button_share = 0x7f0d006d;
+		public static final int b_content = 0x7f0d0069;
+		public static final int b_imageview_bigimage = 0x7f0d006a;
+		public static final int b_imageview_icon = 0x7f0d0066;
+		public static final int b_textview_subtitle = 0x7f0d0068;
+		public static final int b_textview_title = 0x7f0d0067;
 	}
 	public static final class layout {
-		public static final int bv_basic = 0x7f03008e;
-		public static final int bv_content = 0x7f03008f;
-		public static final int prome_layout = 0x7f03009c;
+		public static final int bv_basic = 0x7f03001d;
+		public static final int bv_content = 0x7f03001e;
+		public static final int prome_layout = 0x7f030028;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f060037;

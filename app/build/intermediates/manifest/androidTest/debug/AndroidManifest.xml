@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jhengweipan.SevenPeopleBook.test" >
+    package="com.jhengweipan.pokemongosharetw.test" >
 
     <uses-sdk
         android:minSdkVersion="18"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.jhengweipan.SevenPeopleBook"
-        android:targetPackage="com.jhengweipan.SevenPeopleBook" />
+        android:label="Tests for com.jhengweipan.pokemongosharetw"
+        android:targetPackage="com.jhengweipan.pokemongosharetw" />
 
     <application>
         <uses-library android:name="android.test.runner" />

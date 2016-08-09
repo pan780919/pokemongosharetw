@@ -94,7 +94,8 @@
     <string name="title_activity_page_86">第八六籤</string>
     <string name="title_activity_page_87">第八七籤</string>
     <string name="title_activity_page_88">第八八籤</string>
-    <string name="title_activity_page_89">第八九籤</string>    <string name="title_activity_page_90">第九十籤</string>
+    <string name="title_activity_page_89">第八九籤</string>
+    <string name="title_activity_page_90">第九十籤</string>
     <string name="title_activity_page_91">第九一籤</string>
     <string name="title_activity_page_92">第九二籤</string>
     <string name="title_activity_page_93">第九三籤</string>
@@ -193,7 +194,7 @@ A：集滿1000點就可以換一隻隨機七騎士\n\n</string>
     <string name="title_activity_for_idea_and_share">建議與提供資訊</string>
 
     <!-- 屠龍 -->
-     <string name="dragon_tittle_1">賽茵</string>
+    <string name="dragon_tittle_1">賽茵</string>
     <string name="dragon_url_1">http://appdata.hungryapp.co.kr/images/dbimg/7knights/char/sein.png</string>
     <string name="dragon_tittle_2">艾絲芭塔</string>
     <string name="dragon_url_2">http://appdata.hungryapp.co.kr/images/dbimg/7knights/char/espada.png</string>

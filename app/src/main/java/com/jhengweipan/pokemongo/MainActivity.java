@@ -18,6 +18,8 @@ import android.webkit.ValueCallback;
 import android.webkit.WebView;
 
 import com.adlocus.PushAd;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.igexin.sdk.PushManager;
 import com.jhengweipan.Guandisignonehundred.R;
 import com.jhengweipan.MyAPI.VersionChecker;
@@ -37,13 +39,14 @@ public class MainActivity extends Activity {
     private boolean isFirst = true;
     private ValueCallback<Uri[]> mFilePathCallback;
     private String mCameraPhotoPath;
+    private FirebaseAnalytics mFirebaseAnalytics;
+    private static final String TAG = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent promotionIntent = new Intent(this, MainActivity.class);
         PushAd.enablePush(MainActivity.this, mykey.AdLoucsKey, promotionIntent);
-//        PushAd.test(this);
         configVersionCheck();
         PushManager.getInstance().initialize(this.getApplicationContext());
         if (savedInstanceState == null) {
@@ -54,27 +57,6 @@ public class MainActivity extends Activity {
         }
 
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-
-
 
 
     @Override
@@ -116,8 +98,6 @@ public class MainActivity extends Activity {
         return super.onKeyDown(keyCode, event);
 
     }
-
-
 
     public void ConfirmExit() {
 
