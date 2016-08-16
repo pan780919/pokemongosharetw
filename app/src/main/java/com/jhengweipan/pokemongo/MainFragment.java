@@ -94,6 +94,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         AdView mAdView = (AdView) rootView.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+        mAdView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         setUpWebViewDefaults(mWebView);
 //        setUpWebViewDefaults(mWebView2);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -203,6 +204,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         settings.setDomStorageEnabled(true);
         // Enable pinch to zoom without the zoom buttons
         settings.setBuiltInZoomControls(true);
+
 
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.HONEYCOMB) {
             // Hide the zoom controls for HONEYCOMB+
